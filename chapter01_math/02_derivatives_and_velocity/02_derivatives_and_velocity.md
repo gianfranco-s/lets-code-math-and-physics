@@ -19,4 +19,4 @@ Finally the velocity is calculated as distance over time:
 v = [ x(t+dt) - x(t) ] / dt
 ```
 
-You've seen this expression in every calculus book. We won't get into the math of it... but let's plot how it would look like, for differente values of *dt*
+You've seen this expression in every calculus book. We won't get into the math of it... but let's plot how it would look like, for different values of *dt*
