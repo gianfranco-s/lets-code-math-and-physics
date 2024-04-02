@@ -8,7 +8,7 @@ We'll essentially start learning how to use code to evaluate some mathematical e
 Python and Octave will be used. Pick your poison, and let's start.
 
 ### Chapter 1: some Math
-1. Simple plot: sine wave
+1. [Simple plot: sine wave](chapter01_math/01_simple_plots/01_sine_wave.md)
 2. Derivatives and velocity
 3. Analytical vs numerical vs symbolic derivatives
 4. Integrals
@@ -35,3 +35,10 @@ Python and Octave will be used. Pick your poison, and let's start.
 3. Mechanical oscilations with 2dof
 4. RLC circuit
 5. Heat equation
+
+
+## About file extensions
+Whenever you see a file
+* `.ipynb`, think "jupyter notebook". You can open an interactive editor from the command prompt (bash, powershell, etc)
+* `.py`, think "python script". You can run the script non-interactively. Useful when you know what you're doing. Execute from command prompt.
+* `.m`, think Octave (or if you have the license, MATLAB).
