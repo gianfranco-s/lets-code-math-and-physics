@@ -11,3 +11,5 @@ y = sin(t)
 2. Run `sine_wave.py` with `python3 sine_wave.py`. Did it run? Check the code again, see if you can make the plot appear.
 
 3. Let's dig deeper in `some_more_about_simple_plots.py`. We'll generate plots for `sin(t)`, `sin(3t)`, and `2 sin(3t + pi/2) + 1`.
+
+4. Finally, let's check how to do it in Octave: `sine_wave.m`
