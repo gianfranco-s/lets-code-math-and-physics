@@ -1,4 +1,4 @@
-## Do you know what a derivative is?
+## What is a derivative?
 You might be thinking about a weird calculus limit. That's okay, but let's get the Physics angle. Suppose a car's position is described as
 ```
 x(t) = t^3
@@ -19,4 +19,11 @@ Finally the velocity is calculated as distance over time:
 v = [ x(t+dt) - x(t) ] / dt
 ```
 
-You've seen this expression in every calculus book. We won't get into the math of it... but let's plot how it would look like, for different values of *dt*
+You've seen this expression in every calculus book. There's nothing magical about it...  
+Actually, there IS some magic; and it happens when we take a closer look to *dt*.
+
+1. Let's plot an awful derivative. It's not really a derivative, but we'll get there. Run `plot_an_awful_derivative.ipynb`
+
+2. Now, let's plot better approximations in `plot_a_decent_derivative.py`
+
+3. Finally, let's improve our software skills. This will become handy in the future. We'll repeat what we did before, but with *functions*.
