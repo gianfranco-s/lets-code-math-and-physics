@@ -15,7 +15,7 @@ plt.title('Sine wave')
 plt.xlabel('Time (s)')
 plt.ylabel('Amplitude')
 
-plt.axhline(y=0, color='k',ls=':')
-plt.axvline(x=0, color='k',ls=':')
+plt.axhline(y=0, color='k', ls=':')
+plt.axvline(x=0, color='k', ls=':')
 
 # plt.show()  # <----- Uncomment this line to view the plot
