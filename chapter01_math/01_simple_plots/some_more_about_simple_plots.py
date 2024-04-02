@@ -1,5 +1,4 @@
 import math
-import os
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -39,8 +38,7 @@ xticks = np.linspace(0, Tfin, n_xticks)
 xticks_labels = ['0']
 
 for tick_nr in range(1, n_xticks):
-    xticks_labels.append(fr'${tick_nr} \pi$')  # f allows to have variables inside the string
-                                               # r indicates that the string is raw
+    xticks_labels.append(fr'${tick_nr} \pi$')  # f allows to have variables inside the string, r indicates that the string is raw
 
 plt.xticks(xticks, xticks_labels)
 
@@ -51,8 +49,8 @@ if not save_path.is_dir():
     save_path.mkdir()  # Create the directory if it does not exist
 
 plt.savefig(save_path / 'sine.png')
-plt.savefig(save_path / 'sine_transparent.png',transparent=True)
+plt.savefig(save_path / 'sine_transparent.png', transparent=True)
 plt.savefig(save_path / 'sine_vector.svg')
-plt.savefig(save_path / 'sine_vector_transparent.svg',transparent=True)
+plt.savefig(save_path / 'sine_vector_transparent.svg', transparent=True)
 
 plt.show()  # The .show() method should be invoked after .savefig()
