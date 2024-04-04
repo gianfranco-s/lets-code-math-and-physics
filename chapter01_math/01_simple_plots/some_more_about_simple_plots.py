@@ -6,6 +6,12 @@ import numpy as np
 from pathlib import Path  # Used to make path handling easier
 
 
+import matplotlib.pyplot as plt
+import numpy as np
+
+from pathlib import Path  # Used to make path handling easier
+
+
 N = 100  # Samples
 T = 2 * math.pi  # Period
 Tfin = 1 * T  # End time
