@@ -78,7 +78,7 @@ plot2.set_xlim(0, max(time))
 plot2.set_ylim(0, max(car_positions))
 plot2.set_title(f'{dt=}')
 
-# -------------------------- Velocity with dt = 0.1 -------------------------
+# -------------------------- Velocity with dt = 0.01 -------------------------
 dt = 0.01
 tb = ta + dt
 
@@ -108,4 +108,6 @@ if not save_path.is_dir():
 
 plt.savefig(save_path / 'fig_derivative.png')
 
-""" When using this method of defining the plot first, and then filling it with data, the method plt.show() cannot be used. """
+""" When using this method of defining the plot subplot first,
+and then filling it with data, the method plt.show() cannot be used. The image will be saved in fig_derivative.png
+"""
